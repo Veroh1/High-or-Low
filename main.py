@@ -28,7 +28,7 @@ def number_guess():
     print("I'm thinking of a number between 1 and 100.")
     #Init var
     pick = 0
-    num = randint(1,101)
+    num = randint(1,100)
     turns = set_difficulty()
     #Debugging code
     #print(f"Pssst, the correct answer is {num}") 
